@@ -54,6 +54,7 @@ if [[ -d "$wrongDir" ]]; then
    else
       write_log "Info: Dir is correctly located at $rightDir"
    fi
+else
    write_log "Info: Dir correctly located at $rightDir"
 fi
 
